@@ -67,6 +67,12 @@
     }
 }
 
+.contact-info__header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
@@ -99,6 +105,10 @@
   text-decoration: none;
   display: flex;
   justify-content: start;
+}
+
+.contact-info__item-right {
+    justify-content: right;
 }
 
 .contact-info__item:not(:last-child) {
